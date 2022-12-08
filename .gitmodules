@@ -1,0 +1,3 @@
+[submodule "sensor-monitoring-dashboard"]
+	path = sensor-monitoring-dashboard
+	url = https://github.com/smart-construction-group/sensor-monitoring-dashboard.git
