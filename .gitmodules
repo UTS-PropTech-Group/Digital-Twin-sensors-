@@ -1,9 +1,0 @@
-[submodule "sensor-monitoring-dashboard"]
-	path = sensor-monitoring-dashboard
-	url = https://github.com/smart-construction-group/sensor-monitoring-dashboard.git
-[submodule "RevitApi2"]
-	path = RevitApi2
-	url = https://github.com/Ali-Mansoori/RevitApi2.git
-[submodule "heatmap-3d"]
-	path = heatmap-3d
-	url = https://github.com/smart-construction-group/heatmap-3d.git
