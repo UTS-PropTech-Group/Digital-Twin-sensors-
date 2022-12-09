@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RevitApi</Text>
+    <Description>Some description for RevitApi</Description>
+    <Assembly>RevitApi.dll</Assembly>
+    <FullClassName>RevitApi.AdskCommand</FullClassName>
+    <ClientId>a6518a22-3138-433e-8ce0-144bd12fd521</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RevitApi</Name>
+    <Assembly>RevitApi.dll</Assembly>
+    <ClientId>a6518a22-3138-433e-8ce0-144bd12fd522</ClientId>
+    <FullClassName>RevitApi.AdskApplication</FullClassName>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
+<!--<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>RevitApi</Name>
+    <Description>Nothing.</Description>
+    <Assembly>C:\Users\Ali\source\repos\RevitApi\RevitApi\bin\Debug\RevitAPI.dll</Assembly>
+    <FullClassName>RevitAPI.Class1</FullClassName>
+    <ClientId>a6518a22-3138-433e-8ce0-144bd12fd520</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>Nothing</VendorDescription>
+  </AddIn>
+</RevitAddIns>-->
+<!--<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Revit Auto-Drawer V1.0</Text>
+    <Description>A tool for drawing pipeline components automatically.</Description>
+    <Assembly>C:\Users\Ehsan_Omidizadeh\source\repos\RevitAutoDrawV1.0\RevitAutoDrawV1.0\bin\Debug\RevitAutoDrawV1.0.dll</Assembly>
+    <FullClassName>RevitAutoDrawV1._0.AutodeskCommand</FullClassName>
+    <ClientId>a6518a22-3138-433e-8ce0-144bd12fd520</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>Drew's Revit Add-Ins</VendorDescription>
+  </AddIn>
+</RevitAddIns>-->

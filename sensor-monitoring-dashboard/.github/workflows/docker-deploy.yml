@@ -1,0 +1,21 @@
+name: docker-deploy
+run-name: ${{ github.actor }} is deploying with docker
+on: [push]
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v3
+      -
+        name: Docker Build
+        run: docker build -t sensor-dashboard .
+  deploy:
+    needs: build
+    runs-on: self-hosted
+    steps:
+      -
+        name: deploy
+        run: docker stop sensor-dashboard || true && docker rm sensor-dashboard || true; docker run -p 80:80 --name sensor-dashboard -d sensor-dashboard
+        #If the container already is running, `docker start` will return 0 thus no `docker run` is executed.
